@@ -1,10 +1,17 @@
-# Heart Disease Prediction Using Machine Learning
-This project focuses on predicting the likelihood of heart disease based on various medical and lifestyle factors. Leveraging a range of machine learning algorithms, the goal is to build a model that can assist healthcare professionals in identifying individuals at higher risk of heart disease, which allows for timely interventions and treatment plans.
+#Heart Disease Prediction Using Machine Learning
+This project aims to predict the likelihood of heart disease based on a variety of medical and lifestyle factors. By applying different machine learning algorithms, the goal is to build an accurate model that assists healthcare professionals in identifying individuals at higher risk, thus enabling timely interventions.
 
-Features:
-Dataset: The dataset used contains medical and lifestyle variables such as age, cholesterol levels, blood pressure, glucose levels, and smoking habits. Each record corresponds to an individual's health profile and whether they have been diagnosed with heart disease.
-
-Selected Features for Prediction:
+Table of Contents
+Features
+Machine Learning Algorithms
+Evaluation Metrics
+Technologies Used
+Project Objectives
+Results
+Future Work
+How to Run
+Features
+The dataset used in this project consists of several key features related to heart disease risk factors:
 
 Year (yr)
 Cholesterol level (cholesterol)
@@ -14,28 +21,32 @@ Diastolic blood pressure (ap_lo)
 Systolic blood pressure (ap_hi)
 Activity level (active)
 Smoking habit (smoke)
-Machine Learning Algorithms:
+These features serve as inputs to the machine learning models to predict whether an individual has heart disease.
+
+Machine Learning Algorithms
+The following algorithms have been used to train the model:
 
 Logistic Regression
 Random Forest Classifier
 Support Vector Machine (SVM)
 K-Nearest Neighbors (KNN)
 Decision Trees
-Evaluation Metrics:
+Evaluation Metrics
+The performance of each model is evaluated using the following metrics:
 
-Accuracy
-Precision
-Recall
-F1-Score
-ROC-AUC
-Key Objectives:
-Preprocess and clean the dataset to handle missing values and normalize features.
-Explore feature importance using techniques like SHAP (SHapley Additive exPlanations).
-Apply machine learning algorithms to predict the presence of heart disease.
-Compare models based on performance metrics to choose the best-fit model for deployment.
-Technologies Used:
-Python
-Jupyter Notebook
-Pandas and NumPy for data manipulation
-Scikit-learn for model development and evaluation
-Matplotlib and Seaborn for data visualization
+Accuracy: Measures the percentage of correct predictions.
+Precision: Focuses on the accuracy of positive predictions.
+Recall: Measures the ability of the model to capture all positive instances.
+F1-Score: A balance between precision and recall.
+ROC-AUC: Evaluates the model's ability to distinguish between classes.
+Technologies Used
+Python: The programming language used for model development.
+Jupyter Notebook: For interactive code development.
+Pandas and NumPy: For data manipulation and preprocessing.
+Scikit-learn: For machine learning model development and evaluation.
+Matplotlib and Seaborn: For data visualization and exploratory data analysis.
+Project Objectives
+Preprocessing: Handle missing values, normalize features, and prepare the dataset for training.
+Feature Selection: Use techniques like SHAP (SHapley Additive exPlanations) to explore feature importance.
+Model Development: Apply various machine learning algorithms to predict heart disease.
+Model Comparison: Compare models using evaluation metrics and choose the best-performing one.

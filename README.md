@@ -54,12 +54,3 @@
     <li>Matplotlib and Seaborn for data visualization</li>
 </ul>
 
-<h2>Results:</h2>
-<p>The best-performing model is identified based on accuracy, interpretability, and generalization capability. The model can be used as a decision-support tool in clinical settings to aid in heart disease risk prediction.</p>
-
-<h2>Future Work:</h2>
-<ul>
-    <li>Extend the model to include more features and larger datasets.</li>
-    <li>Investigate advanced algorithms like XGBoost or deep learning techniques.</li>
-    <li>Integrate the model with a web-based interface for easy accessibility by healthcare professionals.</li>
-</ul>

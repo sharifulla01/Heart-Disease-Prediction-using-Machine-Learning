@@ -1,9 +1,9 @@
-#Heart Disease Prediction Using Machine Learning
+# Heart Disease Prediction Using Machine Learning
 This project aims to predict the likelihood of heart disease based on a variety of medical and lifestyle factors. By applying different machine learning algorithms, the goal is to build an accurate model that assists healthcare professionals in identifying individuals at higher risk, thus enabling timely interventions.
 
-Table of Contents
+<h1>Table of Contents</h1>
 Features
-Machine Learning Algorithms
+`Machine Learning Algorithms`
 Evaluation Metrics
 Technologies Used
 Project Objectives

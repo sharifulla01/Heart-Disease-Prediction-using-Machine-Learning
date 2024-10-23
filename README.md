@@ -1,52 +1,65 @@
-# Heart Disease Prediction Using Machine Learning
-This project aims to predict the likelihood of heart disease based on a variety of medical and lifestyle factors. By applying different machine learning algorithms, the goal is to build an accurate model that assists healthcare professionals in identifying individuals at higher risk, thus enabling timely interventions.
+<h1>Heart Disease Prediction Using Machine Learning</h1>
 
-<h1>Table of Contents</h1>
-Features
-`Machine Learning Algorithms`
-Evaluation Metrics
-Technologies Used
-Project Objectives
-Results
-Future Work
-How to Run
-Features
-The dataset used in this project consists of several key features related to heart disease risk factors:
+<p>This project focuses on predicting the likelihood of heart disease based on various medical and lifestyle factors. Leveraging a range of machine learning algorithms, the goal is to build a model that can assist healthcare professionals in identifying individuals at higher risk of heart disease, allowing for timely interventions and treatment plans.</p>
 
-Year (yr)
-Cholesterol level (cholesterol)
-Weight (weight)
-Glucose level (gluc)
-Diastolic blood pressure (ap_lo)
-Systolic blood pressure (ap_hi)
-Activity level (active)
-Smoking habit (smoke)
-These features serve as inputs to the machine learning models to predict whether an individual has heart disease.
+<h2>Features:</h2>
+<ul>
+    <li><strong>Dataset:</strong> The dataset used contains medical and lifestyle variables such as age, cholesterol levels, blood pressure, glucose levels, and smoking habits. Each record corresponds to an individual's health profile and whether they have been diagnosed with heart disease.</li>
+    <li><strong>Selected Features for Prediction:</strong>
+        <ul>
+            <li>Year (<code>yr</code>)</li>
+            <li>Cholesterol level (<code>cholesterol</code>)</li>
+            <li>Weight (<code>weight</code>)</li>
+            <li>Glucose level (<code>gluc</code>)</li>
+            <li>Diastolic blood pressure (<code>ap_lo</code>)</li>
+            <li>Systolic blood pressure (<code>ap_hi</code>)</li>
+            <li>Activity level (<code>active</code>)</li>
+            <li>Smoking habit (<code>smoke</code>)</li>
+        </ul>
+    </li>
+    <li><strong>Machine Learning Algorithms:</strong>
+        <ul>
+            <li>Logistic Regression</li>
+            <li>Random Forest Classifier</li>
+            <li>Support Vector Machine (SVM)</li>
+            <li>K-Nearest Neighbors (KNN)</li>
+            <li>Decision Trees</li>
+        </ul>
+    </li>
+    <li><strong>Evaluation Metrics:</strong>
+        <ul>
+            <li>Accuracy</li>
+            <li>Precision</li>
+            <li>Recall</li>
+            <li>F1-Score</li>
+            <li>ROC-AUC</li>
+        </ul>
+    </li>
+</ul>
 
-Machine Learning Algorithms
-The following algorithms have been used to train the model:
+<h2>Key Objectives:</h2>
+<ul>
+    <li>Preprocess and clean the dataset to handle missing values and normalize features.</li>
+    <li>Explore feature importance using techniques like SHAP (SHapley Additive exPlanations).</li>
+    <li>Apply machine learning algorithms to predict the presence of heart disease.</li>
+    <li>Compare models based on performance metrics to choose the best-fit model for deployment.</li>
+</ul>
 
-Logistic Regression
-Random Forest Classifier
-Support Vector Machine (SVM)
-K-Nearest Neighbors (KNN)
-Decision Trees
-Evaluation Metrics
-The performance of each model is evaluated using the following metrics:
+<h2>Technologies Used:</h2>
+<ul>
+    <li>Python</li>
+    <li>Jupyter Notebook</li>
+    <li>Pandas and NumPy for data manipulation</li>
+    <li>Scikit-learn for model development and evaluation</li>
+    <li>Matplotlib and Seaborn for data visualization</li>
+</ul>
 
-Accuracy: Measures the percentage of correct predictions.
-Precision: Focuses on the accuracy of positive predictions.
-Recall: Measures the ability of the model to capture all positive instances.
-F1-Score: A balance between precision and recall.
-ROC-AUC: Evaluates the model's ability to distinguish between classes.
-Technologies Used
-Python: The programming language used for model development.
-Jupyter Notebook: For interactive code development.
-Pandas and NumPy: For data manipulation and preprocessing.
-Scikit-learn: For machine learning model development and evaluation.
-Matplotlib and Seaborn: For data visualization and exploratory data analysis.
-Project Objectives
-Preprocessing: Handle missing values, normalize features, and prepare the dataset for training.
-Feature Selection: Use techniques like SHAP (SHapley Additive exPlanations) to explore feature importance.
-Model Development: Apply various machine learning algorithms to predict heart disease.
-Model Comparison: Compare models using evaluation metrics and choose the best-performing one.
+<h2>Results:</h2>
+<p>The best-performing model is identified based on accuracy, interpretability, and generalization capability. The model can be used as a decision-support tool in clinical settings to aid in heart disease risk prediction.</p>
+
+<h2>Future Work:</h2>
+<ul>
+    <li>Extend the model to include more features and larger datasets.</li>
+    <li>Investigate advanced algorithms like XGBoost or deep learning techniques.</li>
+    <li>Integrate the model with a web-based interface for easy accessibility by healthcare professionals.</li>
+</ul>
